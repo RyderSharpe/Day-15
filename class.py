@@ -1,3 +1,22 @@
+################## NOTES ###################
+
+# Here's how it works:
+
+# process_coins() function is called to prompt the user to input coins and calculate the total payment. The result is stored in the variable payment.
+
+# The is_transaction_successful() function is then called with two arguments: payment and drink["cost"].
+
+# In the is_transaction_successful() function, the first argument (money_received) -
+# represents the amount of money received from the user (payment), and the second argument (drink["cost"]) represents the cost of the chosen drink.
+
+# The is_transaction_successful() function compares these two values to determine if the payment is sufficient.
+
+# Depending on the result, it returns either True or False, indicating whether the transaction was successful.
+
+# So, in summary, the payment variable is passed as the money_received argument in
+# the is_transaction_successful() function to check if the payment is sufficient for the chosen drink.
+
+
 MENU = {
     "espresso": {
         "ingredients": {
